@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+h2 {
+    text-align: center;
+    margin: 15px;
+}
+.container {
+    margin: auto;
+    margin-top: 50px;
+    max-width: 900px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.items {
+    display: flex;
+    padding: 15px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.items .singleItem img {
+    max-width: 150px;
+}
+
+.items .singleItem {
+    margin-top: 15px;
+    display: flex;
+    max-width: 45%;
+    max-height: 100%;
+    border: 1px dotted black;
+}
+
+.items .singleItem .siContent {
+    padding: 10px;
+}
+.items .singleItem .siContent span {
+    font-weight: bold;
+}
+.items .singleItem .siContent .actions button {
+    width: 60px;
+    height: 40px;
+}
+
+.items .singleItem .siContent .actions {
+    display: table;
+    margin: auto;
+}
+
+.burgerMenu {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+}
+.burgerMenu .burgerBtn {
+    background-image: url('img/menu/hamburger.png');
+    background-size: cover;
+    cursor: pointer;
+    position: fixed;
+    top: 25px;
+    right: 10px;
+    width: 45px;
+    height: 45px;
+    z-index: 1;
+}
+
+.burgerMenu .menu {
+    display: none;
+    width: 300px;
+    height: fit-content;
+    border: 1px solid black;
+    position: relative;
+    right: 240px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.burgerMenu .menu .total {
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+}
+.burgerMenu .menu .cartItems {
+    width: 100%;
+}
+.burgerMenu .menu .cartItems .cartSingleItem {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 5px;
+    margin-top: 15px;
+    align-items: center;
+}
+.burgerMenu .menu .cartItems .cartSingleItem h4{
+    width: 70%;
+}
+.burgerMenu .menu .cartItems .cartSingleItem p {
+    width: 10%;
+}
+.burgerMenu .menu .cartItems .cartSingleItem button{
+    width: 20%;
+}

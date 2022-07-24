@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.size-wrapper {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}
+
+.click-wrapper {
+margin: auto;
+padding: 40px;
+margin-top: 50px;
+border-top: 1px solid black;
+}
+.click-wrapper .click-btn {
+    margin-right: 20px;
+    height: 30px;
+    width: 70px;
+}
+
+.click-wrapper .click-text {
+    display: inline-block;
+}
+
+.form-wrapper {
+    padding: 40px;
+    border-top: 1px solid black;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.select-wrapper {
+    padding: 40px;
+    border: 1px solid black;
+}
